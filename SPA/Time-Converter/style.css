@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+main label,
+main input {
+    display: block;
+}
+
+main input {
+    text-align: center;
+    width: 50%;
+    margin: 1rem auto;
+
+}
+
+#daysBtn,
+#hoursBtn,
+#minutesBtn,
+#secondsBtn {
+
+    background: gray;
+    width: 18%;
+    border: 3px solid gray;
+    border-radius: 4px;
+    padding: 4px 9px;
+    /* text-transform: uppercase; */
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 5px #999;
+    
+
+}
+
+#hoursBtn:hover,#daysBtn:hover,#minutesBtn:hover,#secondsBtn:hover {
+    background-color: #3e8e41
+}
+
+#daysBtn:active,#hoursBtn:active,#minutesBtn:active,#secondsBtn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 1px #666;
+    transform: translateY(2px);
+}
+
+button {
+
+    margin-top: -4px;
+}
+
+
+
+main {
+    text-align: center;
+    background: #50b9b9;
+    color: rgb(244, 12, 12);
+    padding: 25px 25px;
+    border-radius: 35px 35px 35px 35px;
+    width: 250px;
+    margin: 0 auto;
+    font-size: 20px;
+    width: 492px;
+
+}
+
+div {
+    color: blue
+}
+
+div input[type="text"] {
+    font-size: large;
+
+}
